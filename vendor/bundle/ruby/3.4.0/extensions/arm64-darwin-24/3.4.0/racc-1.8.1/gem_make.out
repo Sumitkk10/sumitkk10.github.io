@@ -1,0 +1,18 @@
+current directory: /Users/sumitkk10/Desktop/my-personal-website/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/sumitkk10/Desktop/my-personal-website/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250609-55497-danxrd sitelibdir\=./.gem.20250609-55497-danxrd clean
+
+current directory: /Users/sumitkk10/Desktop/my-personal-website/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250609-55497-danxrd sitelibdir\=./.gem.20250609-55497-danxrd
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/sumitkk10/Desktop/my-personal-website/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250609-55497-danxrd sitelibdir\=./.gem.20250609-55497-danxrd install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250609-55497-danxrd/racc
+
+current directory: /Users/sumitkk10/Desktop/my-personal-website/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250609-55497-danxrd sitelibdir\=./.gem.20250609-55497-danxrd clean
