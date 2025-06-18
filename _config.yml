@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: sumit
+title: Sumit
 email: sumitkk01010@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -59,21 +59,24 @@ plugins:
 
 author:
   name   : "Sumit Kumar"
-  avatar : "/assets/images/pfp.jpeg"
-  bio    : "Hi, there"
+  avatar : "/assets/images/dp.jpg"
+  bio    : "Hi, there!"
   links:
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google-scholar"
+      url: "https://scholar.google.com/citations?user=D834jRsAAAAJ&hl=en"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Sumitkk10"
     - label: "Linkedin"
       icon: "fab fa-linkedin"
       url: "https://linkedin.com/in/sumitkk10/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/sumitkk01010/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Sumitkk10"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/sumit_kk10"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/sumit_kk10"
 
 # footer:
 #   links:
