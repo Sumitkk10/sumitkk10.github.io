@@ -1309,7 +1309,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 @media print { [hidden] { display: none; }
   * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
   html { margin: 0; padding: 0; min-height: auto !important; font-size: 16px; }
-  body { margin: 0 auto; background: #fff !important; color: #000 !important; font-size: 1rem; line-height: 1.5; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+  body { margin: 0 auto; background: #fff !important; color: #000 !important; font-size: 18px; line-height: 1.5; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
   h1, h2, h3, h4, h5, h6 { color: #000; line-height: 1.2; margin-bottom: 0.75rem; margin-top: 0; }
   h1 { font-size: 2.5rem; }
   h2 { font-size: 2rem; }
@@ -1346,3 +1346,15 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   .page__hero-caption a { color: #000 !important; }
   /* Hide the following elements on print ========================================================================== */
   .masthead, .toc, .page__share, .page__related, .pagination, .ads, .page__footer, .page__comments-form, .author__avatar, .author__content, .author__urls-wrapper, .nav__list, .sidebar, .adsbygoogle { display: none !important; height: 1px !important; } }
+
+  html, body {
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 18px;
+  }  
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', Arial, sans-serif;
+    /* Optionally adjust heading sizes */
+    /* font-size: 2em; */
+  }
+  

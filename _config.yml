@@ -62,6 +62,9 @@ author:
   avatar : "/assets/images/dp.jpg"
   bio    : "Hi, there!"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:sumitkk01010@gmail.com"
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google-scholar"
       url: "https://scholar.google.com/citations?user=D834jRsAAAAJ&hl=en"
@@ -69,7 +72,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Sumitkk10"
     - label: "Linkedin"
-      icon: "fab fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/sumitkk10/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
