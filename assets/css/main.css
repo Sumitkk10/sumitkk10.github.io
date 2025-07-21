@@ -1358,3 +1358,78 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
     /* font-size: 2em; */
   }
   
+  /* Publications page styling */
+  .pub-year-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 32px 0 32px 0;
+    border-bottom: 1px solid #eee; /* or your site's default border color */
+    background: none; /* Ensures no custom background */
+  }
+  
+  .pub-year {
+    color: #ffd700;          /* Gold */
+    /* font-weight: bold; */
+    font-size: 1.5rem;       /* Keep or adjust as desired */
+    min-width: 100px;
+    text-align: right;
+    margin-left: 32px;
+    margin-top: 0.5em;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Optional: subtle glow */
+  }  
+  
+
+.pub-list {
+  flex: 1;
+}
+
+.pub-entry {
+  margin-bottom: 32px;
+}
+
+.pub-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 4px;
+  color: #fff;
+}
+
+.pub-authors {
+  color: #bbb;
+  margin-bottom: 2px;
+}
+
+.pub-me {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.pub-venue {
+  font-style: italic;
+  color: #aaa;
+  margin-bottom: 2px;
+}
+
+.pub-award {
+  color: #ffd700;
+  font-size: 0.95em;
+  margin-bottom: 4px;
+}
+
+.pub-btn {
+  display: inline-block;
+  background: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 2px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.95em;
+  margin-top: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+.pub-btn:hover {
+  background: #fff;
+  color: #232323;
+}

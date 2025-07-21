@@ -65,6 +65,10 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:sumitkk01010@gmail.com"
+    - label: "curriculum vitae"
+      icon: "fas fa-fw fa-file-pdf"  # FontAwesome PDF icon
+      url: "/assets/files/resume_full.pdf"  # Adjust path if your PDF is elsewhere
+      target: "_blank"  # Optional: Open in new tab
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google-scholar"
       url: "https://scholar.google.com/citations?user=D834jRsAAAAJ&hl=en"
