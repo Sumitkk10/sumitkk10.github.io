@@ -11,7 +11,7 @@ classes: wide
     <div class="pub-entry">
       <div class="pub-title">SEMMA: A Semantic Aware Knowledge Graph Foundation Model</div>
       <div class="pub-authors">Arvindh Arun*, <span class="pub-me">Sumit Kumar*</span>, Mojtaba Nayyeri, Bo Xiong, Ponnurangam Kumaraguru, Antonio Vergari and Steffen Staab</div>
-      <div class="pub-venue"><em> Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP), Main Track </em>, 2025</div>
+      <div class="pub-venue"><em> Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP), Main Track </em> </div>
       <a class="pub-btn" href="https://arxiv.org/abs/2505.20422" target="_blank">PDF</a>
     </div>
     <div class="pub-entry">
