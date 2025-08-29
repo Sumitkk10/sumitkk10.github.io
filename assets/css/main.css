@@ -1405,6 +1405,12 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   color: #fff;
 }
 
+.pub-venue-short {
+  font-weight: 400;
+  font-size: 1.0rem;
+  color: #fff;
+}
+
 .pub-venue {
   font-style: italic;
   color: #aaa;
