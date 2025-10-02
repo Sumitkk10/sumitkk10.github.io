@@ -16,6 +16,12 @@ classes: wide
       <a class="pub-btn" href="https://github.com/Sumitkk10/semma" target="_blank">Code</a>
     </div>
     <div class="pub-entry">
+      <div class="pub-title">LABELING COPILOT: A Deep Research Agent for Automated Data Curation in Computer Vision</div>
+      <div class="pub-authors">Debargha Ganguly*, <span class="pub-me">Sumit Kumar*</span>, Ishwar Balappanawar*, Weicong Chen*, Shashank Kambhatla, Srinivasan Iyengar, Shivkumar Kalyanaraman, Ponnurangam Kumaraguru and Vipin Chaudhary</div>
+      <div class="pub-venue"><em> Under Review </em> </div>
+      <a class="pub-btn" href="https://arxiv.org/abs/2509.22631" target="_blank">PDF</a>
+    </div>
+    <div class="pub-entry">
       <div class="pub-title">A Cognac shot to forget bad memories: Corrective Unlearning in GNNs</div>
       <div class="pub-authors">Varshita Kolipaka*, Akshit Sinha*, Debangan Mishra, <span class="pub-me">Sumit Kumar</span>, Arvindh Arun, Shashwat Goel, and Ponnurangam Kumaraguru</div>
       <div class="pub-venue"><em>In Proceedings of Forty-Second International Conference on Machine Learning </em> <span class="pub-venue-short">(ICML), 2025 </span> </div>
