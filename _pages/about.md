@@ -9,10 +9,10 @@ I am also deeply passionate about football (soccer) and proudly represent my col
 
 Feel free to reach out to me through my [email](mailto:sumitkk01010@gmail.com) if you’re interested in any of these areas and would like to have a chat!
 
-<!-- ---
+---
 
 <br>
 <br>
 
 <iframe src="https://www.google.com/maps/d/embed?mid=1JLUDuMoYWLZ8VcXGaJaoygOZgikApOU&ehbc=2E312F" width="840" height="480"></iframe>
-<small> (Inspired by [Sidhant Bansal](https://www.sidhantbansal.com/about/)) </small> -->
+<small> (Inspired by [Sidhant Bansal](https://www.sidhantbansal.com/about/)) </small>
