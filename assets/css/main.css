@@ -992,7 +992,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .page__lead { font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1.25em; }
 
-.page__content { /* paragraph indents */ /* blockquote citations */ }
+.page__content { /* paragraph indents */ /* blockquote citations */ max-width: 100%; }
 .page__content h2 { padding-bottom: 0.5em; border-bottom: 1px solid #51555d; }
 .page__content h1 .header-link, .page__content h2 .header-link, .page__content h3 .header-link, .page__content h4 .header-link, .page__content h5 .header-link, .page__content h6 .header-link { position: relative; inset-inline-start: 0.5em; opacity: 0; font-size: 0.8em; -webkit-transition: opacity 0.2s ease-in-out 0.1s; -moz-transition: opacity 0.2s ease-in-out 0.1s; -o-transition: opacity 0.2s ease-in-out 0.1s; transition: opacity 0.2s ease-in-out 0.1s; }
 .page__content h1:hover .header-link, .page__content h2:hover .header-link, .page__content h3:hover .header-link, .page__content h4:hover .header-link, .page__content h5:hover .header-link, .page__content h6:hover .header-link { opacity: 1; }
@@ -1115,8 +1115,8 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 .page__related-title { margin-bottom: 10px; font-size: 0.75em; text-transform: uppercase; }
 
 /* Wide Pages ========================================================================== */
-@media (min-width: 64em) { .wide .page, .wide .page__related { padding-inline-end: 0; } }
-@media (min-width: 80em) { .wide .page, .wide .page__related { padding-inline-end: 0; } }
+@media (min-width: 64em) { .wide .page, .wide .page__related { padding-inline-end: 0; width: calc(100% - 150px); } }
+@media (min-width: 80em) { .wide .page, .wide .page__related { padding-inline-end: 0; width: calc(100% - 200px); } }
 
 /* ========================================================================== ARCHIVE ========================================================================== */
 .archive { margin-top: 1em; margin-bottom: 2em; }
@@ -1438,4 +1438,81 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 .pub-btn:hover {
   background: #fff;
   color: #232323;
+}
+
+.page__content p, .page__content li, .page__content {
+  font-size: 0.97em;
+  line-height: 1.7;
+  max-width: 100%;
+}
+
+.page__content h1, .page__content h2, .page__content h3 {
+  font-size: 1.1em;
+}
+
+/* Custom image styling for blog posts */
+.image-wrapper {
+  text-align: center; /* Centers the image */
+  margin-top: 2em;    /* Add some space above */
+  margin-bottom: 2em; /* Add some space below */
+}
+
+.image-wrapper img {
+  max-width: 60%; /* Adjust this percentage to make the image smaller */
+  max-height: 60%;
+  display: block; /* Ensure margin: auto works for centering */
+  margin-left: auto; /* Center the image horizontally */
+  margin-right: auto; /* Center the image horizontally */
+}
+
+/* For smaller screens, make the image full width so it doesn't look too small */
+@media (max-width: 768px) {
+  .image-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+/* Image row container for multiple images side by side */
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.image-row .image-wrapper {
+  flex: 1;
+  min-width: 200px;
+  max-width: 30%;
+  margin: 0;
+}
+
+.image-row .image-wrapper img {
+  max-width: 100%;
+  max-height: 250px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.image-row .image-wrapper em {
+  display: block;
+  margin-top: 0.5em;
+  font-size: 0.85em;
+  color: #aaa;
+}
+
+/* Responsive: stack images on smaller screens */
+@media (max-width: 768px) {
+  .image-row {
+    flex-direction: column;
+  }
+  
+  .image-row .image-wrapper {
+    max-width: 100%;
+    min-width: 100%;
+  }
 }
