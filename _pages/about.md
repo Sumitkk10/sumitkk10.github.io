@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-Hi, I am Sumit, a senior year undergraduate student in the [CSD](https://www.iiit.ac.in/curriculum-csd/) programme at [IIIT-Hyderabad](https://iiit.ac.in/). I am advised by [Dr. Ponnurangam Kumaraguru](https://www.iiit.ac.in/faculty/ponnurangam-kumaraguru/) in the [Precog research group](https://precog.iiit.ac.in/). My primary research interest is Machine Learning on graphs, especially Knowledge Graphs and Graph Foundation Models.
+Hi, I am Sumit, a senior year undergraduate student in the [CSD](https://www.iiit.ac.in/curriculum-csd/) programme at [IIIT-Hyderabad](https://iiit.ac.in/). I am advised by [Dr. Ponnurangam Kumaraguru](https://www.iiit.ac.in/faculty/ponnurangam-kumaraguru/) in the [Precog research group](https://precog.iiit.ac.in/). I work across a broad range of areas in Machine Learning. My previous work focused on graph machine learning, particularly foundation models and knowledge graphs. More recently, I have been increasingly interested in AI safety, LLM evaluations, and relational learning.
 
 I am also deeply passionate about football (soccer) and proudly represent my college as part of the IIIT-H football team. Apart from that, I have been doing [Competitve Programming](https://en.wikipedia.org/wiki/Competitive_programming) since middle school (retired now). Both these sports have been and continue to be a significant part of my life :)
 
