@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Sumit Kumar"
-  avatar : "/assets/images/dp.jpg"
+  avatar : "/assets/images/pfp.jpg"
   bio    : "Hi, there!"
   links:
     - label: "Email"
